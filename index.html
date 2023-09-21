@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #ceil_flr_ipt {
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 100px;
+            height: 30px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #btn_ceil,#btn_flr {
+            /* background-color: rgb(223, 52, 52); */
+            color: wheat;
+            padding: 5px;
+            margin-right: 10px;
+            width: 60px;
+            border-radius: 8px;
+            font-weight: 700;
+
+        }
+
+        .clr_ceil {
+            background-color: rgb(254, 36, 36);
+        }
+
+        .clr_flr {
+            background-color: rgb(23, 250, 23);
+        }
+        span{
+            font-weight: 800;
+            color: red;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <center>
+
+        <div class="container">
+            <h1 id="demo">Ceil or Floor</h1>
+            <div>
+                <label for="">Enter any <span> Decimal </span>value</label><br>
+                <input id="ceil_flr_ipt"></input>
+            </div>
+
+            <div>
+                <input type="submit" value="Floor" id="btn_flr"   class="clr_flr">
+
+                <input type="submit" value="ceil" id="btn_ceil" class="clr_ceil">
+            </div>
+
+
+
+
+
+
+        </div>
+    </center>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
